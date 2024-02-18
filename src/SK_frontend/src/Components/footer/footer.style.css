@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  padding: 3em;
+  font-size: 20px;
+  font-family: Rekha;
+  background-color: #ACC1B2;
+}
+
+.all {
+  display: flex;
+  margin-top: 3em;
+  gap: 10%;
+  width: 80%;
+  float: right;
+}
+
+.smicons {
+  margin-left: 5em;
+  text-align: center;
+}
+
+.smicons button {
+  padding: 15px; /* Adjust the padding to add space around the buttons */
+}
+
+.smicons h1 {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=footer.style.css.map */

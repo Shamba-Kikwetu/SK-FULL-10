@@ -1,0 +1,53 @@
+.lands {
+  text-align: center;
+  background-color: #227536;
+  padding: 10em;
+  height: 750px;
+
+}
+
+
+.image-container {
+  position: relative;;
+}
+
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure it's above the other image */
+}
+
+.image2 {
+  position: absolute;
+  top: 150px; /* Adjust the top position to overlap */
+  left: 200px; /* Adjust the left position to overlap */
+  z-index: 0; /* Ens */
+}
+
+.words{
+  width: 400px;
+  float: right;
+  font-family: Rekha;
+  font-size: 30px;
+  margin-top: 3em;
+  margin-right: 10em;
+}
+
+.butlands{
+  margin-top:  5em;
+  background-color: #185c2c;
+  color: #ACC1B2;
+  width: 175px;
+  height: 49px;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+.landsheading{
+  font-size: 36px;
+  font-family: Jomolhari;
+  margin-top: -2em;
+}
+
+

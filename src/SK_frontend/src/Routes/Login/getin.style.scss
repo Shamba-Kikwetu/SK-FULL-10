@@ -1,0 +1,104 @@
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 750px; /* Increased width */
+  padding: 50px;
+  border-radius: 5px;
+  background-color: black;
+  text-align: center;
+  height: 800px;
+
+
+}
+
+.switcher {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.switcher span {
+  cursor: pointer;
+  color: white;
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.switcher span.active {
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-family: Judson;
+  font-size: 20px;
+  row-gap: 10px;
+}
+
+.form-group label {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 320px;
+  height: 43px;
+  margin: auto;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white;
+}
+
+.name-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+.signin{
+  margin-top:5em;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 13em;
+}

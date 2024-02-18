@@ -1,14 +1,17 @@
 [package]
-name = "SK_backend"
+name = "sk"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+warp = { version = "0.3", features = ["tokio-tungstenite"] }
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
 
 [lib]
-crate-type = ["cdylib"]
+name = "sk"
+path = "src/lib.rs"
 
-[dependencies]
-candid = "0.10"
-ic-cdk = "0.12"
-ic-cdk-timers = "0.6" # Feel free to remove this dependency if you don't need timers
+[[bin]]
+name = "sk"
+path = "src/main.rs" 
